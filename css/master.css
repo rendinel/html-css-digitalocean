@@ -88,8 +88,7 @@ height:150px;
   height: 800px;
   background-color: grey;
 }
-
 .imgfordev{
-  width: 70%;
-  height: auto;
+  background-image: url("../images/spec.webp");
+  height: 400px;
 }
