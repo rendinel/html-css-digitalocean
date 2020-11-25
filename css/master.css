@@ -1,6 +1,7 @@
 /* inizio nav */
 .navcont{
   background-color: #fff;
+  height: 40px;
 }
 
 .navbar{
@@ -21,19 +22,33 @@
 
 /* jumbotron inizio */
 .jumboback{
-  height: 600px;
+  height: 100%;
   background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
 }
 
 .txtcont{
-  background-color: yellow;
   height: 500px;
   margin-top: 50px;
 }
 
 .formcont{
-  background-color: red;
   height: 500px;
   margin-top: 50px;
 }
+/* form inizio */
+.formtitle{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.sectit{
+  color: blue;
+}
+
+.buttext{
+  width: 80%;
+  margin: 0 10%;
+}
+/* form fine */
 /* fine jumbotron */
