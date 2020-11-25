@@ -59,5 +59,37 @@
   height:400px;
 }
 
-
 /* fine section griglia logo */
+
+/* inizio sezione spec */
+.specscont{
+  height: 100%;
+  background-color: yellow;
+}
+
+.specmenucont{
+  background-color: red;
+  height:800px;
+}
+
+.specgrill{
+  background-color: green;
+  height: 800px;
+}
+
+.specimg{
+border: 2px solid purple;
+height:150px;
+}
+
+/* fine sezione spec */
+
+.desfordevcont{
+  height: 800px;
+  background-color: grey;
+}
+
+.imgfordev{
+  width: 70%;
+  height: auto;
+}
