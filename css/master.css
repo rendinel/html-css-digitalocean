@@ -1,5 +1,5 @@
 /* utility class */
- {
+ /* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -23,29 +23,38 @@
   content: "";
   clear: both;
   display: table;
-}
+} */
 /* fine utiliy class */
 
 /* inizio nav */
 .navcont{
   background-color: #fff;
-  height: 40px;
+  height: 60px;
+  color: #031C4E;
+  font-weight: bold;
 }
 
 .navbar{
-  height: 40px;
+  height: 60px;
 }
 .logo{
-  height: 40px;
+  height: 20px;
+  width: auto;
 }
 .navbar li{
   display: inline-block;
+  margin-right: 15px;
 }
 
 .navbar > ul{
-  height: 40px;
-  line-height: 40px;
+  height: 60px;
+  line-height: 60px;
   vertical-align: middle;
+}
+
+#btnnav{
+  border: 1px solid #3889FF;
+  color: #3889FF;
 }
 /* fine nav */
 
@@ -53,41 +62,96 @@
 .jumboback{
   height: 100%;
   background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+  background-size: cover;
 }
 
 .txtcont{
-  height: 500px;
+  height: 450px;
   margin-top: 50px;
 }
 
+.contconttxt{
+  color: white;
+  margin-top: 80px;
+}
+
+.contconttxt > h1{
+  font-size: 50px;
+}
+
+.contconttxt > p{
+  color: #BBCCFF;
+}
+
 .formcont{
-  height: 500px;
+  height: 450px;
   margin-top: 50px;
 }
+
 /* form inizio */
+.jumboform{
+  border-radius: 10px;
+  background-color: #fff;
+  margin-top: 80px;
+}
+
 .formtitle{
   text-align: center;
   font-size: 40px;
   font-weight: bolder;
+  color: #031C4E;
 }
 
 .sectit{
-  color: blue;
+  color: #3C8BFF;
 }
 
-.buttext{
+[class*="butt-"] {
   width: 80%;
   margin: 0 10%;
 }
+
+.butt-text{
+  border: 1px solid #F2F2F2;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.firstbutt{
+  border: 1px #579AFF solid;
+  background-color: #579AFF;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.secondbutt{
+  border: 1px #fff solid;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: #626262;
+  box-shadow: 3px 3px 3px grey;
+}
+
+
 /* form fine */
 /* fine jumbotron */
 
 /* inizio section griglia logo */
 .logogrillcont{
   background-color: #F3F5F9;
-  height:400px;
+  height:100%;
 }
 
+.logo-one{
+  border: 2px solid red;
+  height: 77px;
+  background-image: url(../images/docker.svg);
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: center
+}
 /* fine section griglia logo */
 
 /* inizio sezione spec */
