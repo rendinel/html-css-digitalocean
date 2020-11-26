@@ -68,11 +68,13 @@
 .txtcont{
   height: 450px;
   margin-top: 50px;
+  border: 2px solid black;
 }
 
 .contconttxt{
   color: white;
   margin-top: 80px;
+  border: 2px solid red;
 }
 
 .contconttxt > h1{
@@ -86,6 +88,7 @@
 .formcont{
   height: 450px;
   margin-top: 50px;
+  border: 2px solid black;
 }
 
 /* form inizio */
@@ -93,6 +96,7 @@
   border-radius: 10px;
   background-color: #fff;
   margin-top: 80px;
+  border: 2px solid red;
 }
 
 .formtitle{
@@ -144,35 +148,80 @@
   height:100%;
 }
 
-.logo-one{
+.titlelogo{
+  margin-bottom: 20px;
+}
+
+.logorow{
+  margin-bottom: 20px;
+}
+
+[class*="logo-"] {
   border: 2px solid red;
   height: 77px;
-  background-image: url(../images/docker.svg);
   background-size: 40%;
   background-repeat: no-repeat;
   background-position: center
+}
+
+.logo-one{
+  background-image: url(../images/docker.svg);
+}
+
+.logo-two{
+  background-image: url(../images/slack.svg);
+}
+
+.logo-three{
+  background-image: url(../images/wework.svg);
+}
+
+.logo-four{
+  background-image: url(../images/gitlab.svg);
+}
+
+.logo-five{
+  background-image: url(../images/splunk.svg);
+}
+
+.logo-six{
+  background-image: url(../images/hashicorp.svg);
 }
 /* fine section griglia logo */
 
 /* inizio sezione spec */
 .specscont{
   height: 100%;
-  background-color: yellow;
+  background-color: #fff;
 }
 
 .specmenucont{
-  background-color: red;
-  height:800px;
+  border: 2px solid red;
+  height: 100%;
+}
+
+.listspeccont{
+  border-left: 2px solid grey;
+  height: 200px;
+}
+
+.speclistul{
+  list-style-type:none;
+  border: 2px solid black;
+}
+
+.speclili{
+  margin-bottom: 20px;
+  /* margin-right: 30px; */
 }
 
 .specgrill{
-  background-color: green;
-  height: 800px;
+  border: 2px solid green;
 }
 
 .specimg{
 border: 2px solid purple;
-height:150px;
+height:250px;
 }
 
 /* fine sezione spec */
@@ -249,5 +298,38 @@ height:150px;
   border: 2px solid red;
 }
 
-
 /* fine footer */
+
+/* media query */
+
+@media screen and (max-width: 767px){
+  /* jumbotron */
+  /* .txtcont{
+
+  }
+
+  .formcont{
+    margin-top: -5px;
+    border: 2px solid red;
+  }
+
+  .contconttxt{
+    margin-top: 230px;
+  }
+
+  .jumboform{
+    margin-top: -10px;
+  } */
+/* end jumbotron */
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px){
+  .navbar li{
+    margin-right: 0px;
+  }
+
+}
