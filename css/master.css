@@ -218,7 +218,6 @@
 
 .listspeccont{
   border-left: 2px solid grey;
-  height: 220px;
 }
 
 .speclistul{
@@ -253,6 +252,16 @@ height:250px;
   text-align: center;
 }
 
+
+/* .fa-angle-right{
+  font-size: 50px;
+}
+
+.fa-angle-left{
+  font-size: 50px;
+} */
+
+
 .imgfordev{
   height: auto;
   width: 70%;
@@ -269,6 +278,11 @@ height:250px;
   height: 10px;
   background-color: #0069ff;
   display:inline-block;
+  display: none;
+}
+
+.bluedot:hover{
+  content:
 }
 /* fine spec */
 
@@ -318,6 +332,7 @@ font-size: 35px;
   height: 60px;
   line-height: 60px;
   vertical-align: middle;
+  padding: 0;
 }
 
 [class*="regionli-"]{
