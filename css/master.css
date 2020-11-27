@@ -278,13 +278,13 @@ height:250px;
   border-radius: 100%;
   width: 10px;
   height: 10px;
-  background-color: #0069ff;
+  border: 1px solid #0069ff;
   display:inline-block;
-  display: none;
+  /* display: none; */
 }
 
 .bluedot:hover{
-  content:
+    background-color: #0069ff;
 }
 /* fine spec */
 
