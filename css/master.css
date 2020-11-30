@@ -114,7 +114,7 @@
 
 .formtitle{
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bolder;
   color: #031C4E;
   margin-top: 85px;
@@ -123,27 +123,33 @@
 .sectit{
   color: #3C8BFF;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bolder;
 }
 
 [class*="butt-"] {
   width: 80%;
   margin: 0 10%;
-  height: 40px;
+  height: 45px;
+  font-size: 20px;
 }
 
-.butt-text{
+.butttext{
   border: 1px solid #F2F2F2;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 50px;
+  font-size: 20px;
 }
 
 .firstbutt{
   border: 1px #579AFF solid;
   background-color: #579AFF;
   border-radius: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   color: #fff;
 }
 
@@ -154,8 +160,13 @@
   margin-bottom: 10px;
   color: #626262;
   box-shadow: 3px 3px 3px grey;
+  background-image: url("../images/glogo.jpg");
+  background-repeat: no-repeat;
 }
 
+.jumblink{
+  text-decoration: underline;
+}
 
 /* form fine */
 /* fine jumbotron */
@@ -359,9 +370,6 @@ font-size: 35px;
   padding: 0;
 }
 
-.rowspace{
-
-}
 [class*="regionli-"]{
   display: inline-block;
 }
@@ -383,13 +391,17 @@ font-size: 35px;
   font-weight: bolder;
 }
 
+.pad{
+padding-right:60px;
+}
+
 .regionlink1{
   /* width: calc(100% - 5px); */
   height:100%;
   /* margin-left: 5px; */
 }
 
-.regionlink1{
+.regionlink2{
   /* width: calc(100% - 5px); */
   height:100%;
   /* margin-right: 5px; */
@@ -606,6 +618,14 @@ margin-bottom: 15px;
   .formcont{
     height: auto;
     margin-top: 15px;
+  }
+
+  .formtitle{
+    margin-top: 15px;
+  }
+
+  .jumboform{
+    height: 100%;
   }
 
 /* end jumbotron */
