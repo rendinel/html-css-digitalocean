@@ -352,6 +352,9 @@ font-size: 35px;
   padding: 0;
 }
 
+.rowspace{
+
+}
 [class*="regionli-"]{
   display: inline-block;
 }
@@ -373,8 +376,16 @@ font-size: 35px;
   font-weight: bolder;
 }
 
-.regionlink{
+.regionlink1{
+  /* width: calc(100% - 5px); */
   height:100%;
+  /* margin-left: 5px; */
+}
+
+.regionlink1{
+  /* width: calc(100% - 5px); */
+  height:100%;
+  /* margin-right: 5px; */
 }
 
 .citycont{
@@ -445,6 +456,7 @@ font-size: 35px;
   height:100%;
   text-align: center;
   padding-bottom: 50px;
+  padding-top: 75px;
 }
 
 .buttonfoot {
@@ -459,12 +471,13 @@ font-size: 35px;
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 5px;
+  font-weight: bolder;
 }
 
 .footuptit{
   color:#fff;
   font-weight: bolder;
-  margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 
@@ -478,6 +491,11 @@ font-size: 35px;
 [class*="footblock-"] {
   height:100%;
 }
+
+.dgocimg{
+margin-bottom: 15px;
+}
+
 .copyright{
   color: #737F99;
   font-weight: bolder;
@@ -488,6 +506,7 @@ font-size: 35px;
   color: #4A5A7C;
   font-weight: bolder;
   font-size: 18px;
+  margin-bottom: 15px;
 }
 
 .footicon{
@@ -514,13 +533,15 @@ font-size: 35px;
 }
 
 .fishcont{
-  height: 100%;
+  position: fixed;
+  bottom:20px;
+  right:0;
+  width: 100%;
 }
 
 .shark{
-  position: fixed;
-  bottom: 20px;
-  right: 0;
+  float: right;
+  margin-left:15px;
 }
 
 .comic{
@@ -530,11 +551,11 @@ font-size: 35px;
   display: inline-block;
   line-height: 69px;
   vertical-align: middle;
-  position: fixed;
-  bottom: 20px;
-  right: 90px;
   text-align: center;
   border-radius: 5px;
+  float: right;
+  position: relative;
+  margin-right: 15px;
 }
 
 .comic:after {
@@ -592,16 +613,21 @@ font-size: 35px;
   padding-top: 30px;
 }
 
-.shark{
-  position: fixed;
-  bottom: 125px;
-  left: 53px;
+.fishcont{
+  bottom:50px;
+  left:0;
+  padding-left: 30px;
 }
 
-.comic{
-  position: fixed;
-  bottom: 25px;
-  left: 53px;
+.shark {
+  float: none;
+  display: block;
+  margin-left: 0;
+  margin-bottom: 20px;
+}
+
+.comic {
+  float:none;
 }
 /* end footer */
 
@@ -615,17 +641,25 @@ font-size: 35px;
     padding-top: 30px;
   }
 
-  .shark{
-    position: fixed;
-    bottom: 220px;
-    left: 130px;
+  .fishcont{
+    bottom:150px;
+    left:130px;
+    padding-left: 15px;
   }
 
-  .comic{
-    position: fixed;
-    bottom: 120px;
-    left: 130px;
+  .shark {
+    float: none;
+    display: block;
+    margin-left: 0;
+    margin-bottom: 20px;
   }
+
+  .comic {
+    float:none;
+  }
+
+
+
   /* footer fine */
 
 }
