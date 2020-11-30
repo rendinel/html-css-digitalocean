@@ -84,7 +84,6 @@
 .contconttxt{
   color: white;
   border: 2px solid black;
-  /* margin-top: 20px; */
 }
 
 .contconttxt > h1{
@@ -257,7 +256,6 @@
   margin-right: 30px;
   font-size: 25px;
 }
-
 
 .specimg{
 height:250px;
@@ -655,6 +653,90 @@ margin-bottom: 15px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px){
+
+/* inizio jumbotron */
+  .txtcont{
+    height: 100%;
+    border: 2px solid red;
+  }
+
+  .contconttxt{
+    color: white;
+    border: 2px solid black;
+  }
+
+  .contconttxt > h1{
+    font-size: 60px;
+    font-weight: bolder;
+    padding-top: 60px;
+  }
+
+  .contconttxt > p{
+    color: #8BA9FF;
+    font-size: 18px;
+    font-weight: bolder;
+  }
+
+  .formcont{
+    height:  100%;
+    border: 2px solid red;
+  }
+
+  /* form inizio */
+  .jumboform{
+    border-radius: 10px;
+    background-color: #fff;
+    border: 2px solid black;
+    height: 460px;
+  }
+
+  .formtitle{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #031C4E;
+    margin-top: 85px;
+  }
+
+  .sectit{
+    color: #3C8BFF;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  [class*="butt-"] {
+    width: 90%;
+    margin: 0 5%;
+    height: 45px;
+    font-size: 15px;
+  }
+
+  .butttext{
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .firstbutt{
+    margin-bottom: 15px;
+  }
+
+  .secondbutt{
+    margin-bottom: 10px;
+    background-size: 15%;
+    background-position: 2px 0px 2px 0px;
+  }
+
+
+  /* form fine */
+  /* fine jumbotron */
+
   /* footer */
   .footblock-two,.footblock-three,.footblock-five{
     padding-top: 30px;
@@ -676,8 +758,6 @@ margin-bottom: 15px;
   .comic {
     float:none;
   }
-
-
 
   /* footer fine */
 
