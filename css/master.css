@@ -39,7 +39,7 @@
 }
 
 .logo{
-  height: 20px;
+  height: 40px;
   width: auto;
 }
 
@@ -54,6 +54,14 @@
   vertical-align: middle;
 }
 
+.iconnav{
+  color: #3A8AFF;
+  font-size: 20px;
+  vertical-align: middle;
+  height: 60px;
+  line-height: 60px;
+}
+
 #btnnav{
   border: 1px solid #3889FF;
   color: #3889FF;
@@ -65,36 +73,41 @@
   height: 100%;
   background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
   background-size: cover;
+  padding: 50px 0px;
 }
 
 .txtcont{
-  height: 450px;
-  margin-top: 50px;
+  height: 100%;
+  border: 2px solid red;
 }
 
 .contconttxt{
   color: white;
-  margin-top: 80px;
+  border: 2px solid black;
+  /* margin-top: 20px; */
 }
 
 .contconttxt > h1{
-  font-size: 50px;
+  font-size: 60px;
+  font-weight: bolder;
 }
 
 .contconttxt > p{
-  color: #BBCCFF;
+  color: #8BA9FF;
+  font-size: 18px;
+  font-weight: bolder;
 }
 
 .formcont{
-  height: 450px;
-  margin-top: 50px;
+  height:  100%;
+  border: 2px solid red;
 }
 
 /* form inizio */
 .jumboform{
   border-radius: 10px;
   background-color: #fff;
-  margin-top: 80px;
+  border: 2px solid black;
 }
 
 .formtitle{
@@ -502,27 +515,41 @@ font-size: 35px;
 
 .fishcont{
   height: 100%;
-  position: relative;
 }
 
 .shark{
-  position: absolute;
+  position: fixed;
+  bottom: 20px;
   right: 0;
-  bottom: 0;
 }
 
 .comic{
-  width:auto;
+  width:450px;
   height:69px;
   background-color: #fff;
   display: inline-block;
   line-height: 69px;
   vertical-align: middle;
-  position: absolute;
+  position: fixed;
+  bottom: 20px;
   right: 90px;
-  bottom: 0;
   text-align: center;
   border-radius: 5px;
+}
+
+.comic:after {
+  content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-left-color: #fff;
+	border-right: 0;
+	border-bottom: 0;
+	margin-top: -10px;
+	margin-right: -20px;
 }
 
 .comictext{
@@ -565,63 +592,42 @@ font-size: 35px;
   padding-top: 30px;
 }
 
-.fishcont{
-  height: 100%;
-  position: relative;
-}
-
 .shark{
-  position: absolute;
-  left: 0;
-  bottom: 100px;
+  position: fixed;
+  bottom: 125px;
+  left: 53px;
 }
 
 .comic{
-  position: absolute;
-  left: 15px;
-  bottom: 0;
-}
-
-.bubble{
-  position: absolute;
-  left: 5px;
-  bottom: 0;
-  color: #fff;
-  font-size: 35px;
-}
-
-
+  position: fixed;
+  bottom: 25px;
+  left: 53px;
 }
 /* end footer */
+
+
+
+}
+
 @media screen and (min-width: 768px) and (max-width: 991px){
+  /* footer */
   .footblock-two,.footblock-three,.footblock-five{
     padding-top: 30px;
   }
 
-  .fishcont{
-    height: 100%;
-    position: relative;
-  }
-
   .shark{
-    position: absolute;
-    left: 0;
-    bottom: 100px;
+    position: fixed;
+    bottom: 220px;
+    left: 130px;
   }
 
   .comic{
-    position: absolute;
-    left: 15px;
-    bottom: 0;
+    position: fixed;
+    bottom: 120px;
+    left: 130px;
   }
+  /* footer fine */
 
-  .bubble2{
-    position: absolute;
-    left: 775px;
-    bottom: 0;
-    color: #fff;
-    font-size: 35px;
-  }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px){
