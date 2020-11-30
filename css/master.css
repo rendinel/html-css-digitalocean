@@ -395,16 +395,8 @@ font-size: 35px;
 padding-right:60px;
 }
 
-.regionlink1{
-  /* width: calc(100% - 5px); */
+.regionlink{
   height:100%;
-  /* margin-left: 5px; */
-}
-
-.regionlink2{
-  /* width: calc(100% - 5px); */
-  height:100%;
-  /* margin-right: 5px; */
 }
 
 .citycont{
